@@ -1,0 +1,11 @@
+{
+  "item.dinomod.fossil": "Fossil",
+  "item.dinomod.plant_fossil": "Plant Fossil",
+  "item.dinomod.amber": "Amber",
+
+  "block.dinomod.petrified_fossil": "Petrified Fossil",
+  "block.dinomod.carbon_fossil": "Carbon Fossil",
+  "block.dinomod.amber_stone": "Amber Stone",
+
+  "creativetab.dinomod.archeology": "Archeology"
+}

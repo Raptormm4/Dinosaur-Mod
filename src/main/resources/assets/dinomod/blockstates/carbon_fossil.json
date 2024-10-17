@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "": {
+      "model": "dinomod:block/carbon_fossil"
+    }
+  }
+}

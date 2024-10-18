@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "": {
+      "model": "dinomod:block/amber_block"
+    }
+  }
+}

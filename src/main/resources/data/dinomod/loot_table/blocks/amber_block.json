@@ -1,0 +1,21 @@
+{
+  "item": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dinomod:amber_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dinomod:blocks/amber_block"
+}

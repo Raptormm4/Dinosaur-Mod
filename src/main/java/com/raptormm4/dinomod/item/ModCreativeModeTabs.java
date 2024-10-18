@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PETRIFIED_FOSSIL.get());
                         output.accept(ModBlocks.CARBON_FOSSIL.get());
                         output.accept(ModBlocks.AMBER_STONE.get());
+                        output.accept(ModBlocks.AMBER_BLOCK.get());
                     })
                     .build());
 

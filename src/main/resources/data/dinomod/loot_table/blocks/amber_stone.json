@@ -26,46 +26,14 @@
                   }
                 }
               ],
-              "name": "dinomod:petrified_fossil"
+              "name": "dinomod:amber_stone"
             },
             {
               "type": "minecraft:alternatives",
               "children": [
                 {
                   "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "chances": [
-                        0.2,
-                        0.23,
-                        0.25,
-                        0.3
-                      ],
-                      "condition": "minecraft:table_bonus",
-                      "enchantment": "minecraft:fortune"
-                    }
-                  ],
-                  "name": "minecraft:bone"
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "chances": [
-                        0.05,
-                        0.1,
-                        0.15,
-                        0.2
-                      ],
-                      "condition": "minecraft:table_bonus",
-                      "enchantment": "minecraft:fortune"
-                    }
-                  ],
-                  "name": "dinomod:fossil"
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:cobblestone"
+                  "name": "dinomod:amber"
                 }
               ],
               "conditions": [
@@ -80,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dinomod:blocks/petrified_fossil"
+  "random_sequence": "dinomod:blocks/amber_stone"
 }

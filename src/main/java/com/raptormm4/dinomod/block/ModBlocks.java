@@ -20,16 +20,16 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PETRIFIED_FOSSIL = registerBlock("petrified_fossil",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f).requiresCorrectToolForDrops()));
+                    .strength(1f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> CARBON_FOSSIL = registerBlock("carbon_fossil",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3f).requiresCorrectToolForDrops()));
+                    .strength(1f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> AMBER_STONE = registerBlock("amber_stone",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops()));
+                    .strength(2f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> AMBER_BLOCK = registerBlock("amber_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops()));
+                    .strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

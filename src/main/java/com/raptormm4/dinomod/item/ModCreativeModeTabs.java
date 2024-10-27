@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FOSSIL.get());
                         output.accept(ModItems.PLANT_FOSSIL.get());
                         output.accept(ModItems.AMBER.get());
+                        output.accept(ModItems.DODO_EGG.get());
+                        output.accept(ModItems.DODO_SPAWN_EGG.get());
 
                         output.accept(ModBlocks.PETRIFIED_FOSSIL.get());
                         output.accept(ModBlocks.CARBON_FOSSIL.get());

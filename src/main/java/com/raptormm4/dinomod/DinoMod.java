@@ -2,8 +2,12 @@ package com.raptormm4.dinomod;
 
 import com.mojang.logging.LogUtils;
 import com.raptormm4.dinomod.block.ModBlocks;
+import com.raptormm4.dinomod.entity.ModEntities;
+import com.raptormm4.dinomod.entity.client.DodoRenderer;
 import com.raptormm4.dinomod.item.ModCreativeModeTabs;
 import com.raptormm4.dinomod.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,9 +41,9 @@ public class DinoMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModCreativeModeTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -70,6 +74,7 @@ public class DinoMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.DODO.get(), DodoRenderer::new);
         }
     }
 }
